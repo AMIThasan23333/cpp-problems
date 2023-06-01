@@ -22,9 +22,12 @@ using namespace Sakib;
 
 
 int main(){
-
+    
   cout <<age <<endl;
   cout <<age2 <<endl;
-  
 return 0;
 }
+
+
+
+/* if both the age are same name like age then u can not use  using namespace  then u have to use Sakib::hello(); */
