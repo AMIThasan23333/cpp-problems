@@ -1,13 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
-
   class Person {
-
-
-   public : 
-
+     public : 
      string name;
      int age;
 
@@ -15,13 +10,10 @@ using namespace std;
         this->name = name;
        this->age = age;
      }
-
+     
      void hello () {
         cout <<"Hello" <<endl;
-
      }
-
-
   };
 
 
@@ -29,7 +21,5 @@ int main(){
 
      Person rakib("Rakib ahsan", 24);
      cout << rakib.name << " " << rakib.age << endl;
-
-
-return 0;
+  return 0;
 }
