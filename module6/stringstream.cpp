@@ -8,13 +8,17 @@ void print(stringstream &ss){
  
     print(ss);
     cout << word <<endl;
+
    }
 }
-int main(){
-    string s;
 
+int main(){
+
+    string s;
     getline(cin, s);
     stringstream ss(s);
-     print(ss);
+    print(ss);
+
 return 0;
+
 }
