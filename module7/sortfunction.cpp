@@ -1,17 +1,20 @@
 #include<bits/stdc++.h>
 using namespace std;
-class Student
+
+class Student 
 {
     public:
         string name;
         int roll;
         int marks;
 };
+
 bool cmp(Student a,Student b)
 {
     if(a.marks > b.marks) return true;
     else return false;
 }
+
 int main()
 {
     Student a[3];

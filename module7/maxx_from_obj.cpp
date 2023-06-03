@@ -2,6 +2,7 @@
 using namespace std;
 
 class Student
+
 {
     public:
         string name;
@@ -9,7 +10,7 @@ class Student
         int marks;
 };
 
-int main()
+int main()  
 {
     Student a[3];
     for(int i=0;i<3;i++)
@@ -18,6 +19,7 @@ int main()
         cin>>a[i].roll>>a[i].marks;
         cin.ignore();
     }
+
     Student mx;
     mx.marks=INT_MIN;
     for(int i=0;i<3;i++)
@@ -27,6 +29,7 @@ int main()
             mx=a[i];
         }
     }
+
     cout<<mx.name<<" "<<mx.roll<<" "<<mx.marks<<endl;
 
     Student mn;

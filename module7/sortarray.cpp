@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 class Student
 {
     public:
@@ -7,7 +8,9 @@ class Student
         int roll;
         int marks;
 };
+
 int main()
+
 {
     Student a[3];
     for(int i=0;i<3;i++)
@@ -16,6 +19,8 @@ int main()
         cin>>a[i].roll>>a[i].marks;
         cin.ignore();
     }
+
+/* swapping two  */
     for(int i=0;i<2;i++)
     {
         for(int j=i+1;j<3;j++)
@@ -26,6 +31,7 @@ int main()
             }
         }
     }
+
     for(int i=0;i<3;i++)
     {
         cout<<a[i].name<<" "<<a[i].roll<<" "<<a[i].marks<<endl;
