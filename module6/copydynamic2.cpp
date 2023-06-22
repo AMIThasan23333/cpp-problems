@@ -18,11 +18,8 @@ int main(){
 
     Person* sakib = new Person ("Sakib Ahmed", 23);
 
-    rakib = sakib;
-
-/* if delete sakib here , raob will also be empty */
-
-// delete sakib;
+    *rakib = *sakib;
+     delete sakib;
    cout << rakib->age << " " << rakib->name << endl;
 
 
